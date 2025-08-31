@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dice1ImageView: UIImageView!
+    @IBOutlet weak var dice2ImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func rollDicePressed(_ sender: Any) {
+    }
+    
 }
 
